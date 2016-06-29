@@ -25,6 +25,9 @@ function mockupRestInterface(test, expectedUrl, expectedOptions, expectedEvent, 
       test.equal(url, expectedUrl, 'rest.get fn received invalid parameter');
       test.deepEqual(options, expectedOptions, 'rest.get fn received invalid parameter');
       callback(null, null, expectedResult);
+
+
+      
     }
   });
 }
